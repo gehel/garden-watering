@@ -173,7 +173,8 @@
       ],
       "track_widths": [
         0.0,
-        0.25
+        0.25,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -191,13 +192,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|609600|1016000|fb4ee84b-3ee3-493a-a7bf-1e67281dfc65|0ba35a15-1a3f-480d-a5d4-8d2cc165d281|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866",
-      "pin_to_pin|609600|1016000|fb4ee84b-3ee3-493a-a7bf-1e67281dfc65|0ba35a15-1a3f-480d-a5d4-8d2cc165d281|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838",
-      "pin_to_pin|609600|1016000|fb4ee84b-3ee3-493a-a7bf-1e67281dfc65|0ba35a15-1a3f-480d-a5d4-8d2cc165d281|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d",
-      "pin_to_pin|609600|1016000|fb4ee84b-3ee3-493a-a7bf-1e67281dfc65|0ba35a15-1a3f-480d-a5d4-8d2cc165d281|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9",
-      "pin_to_pin|609600|1066800|f2cb8a2c-791d-40ac-a8ed-93a19f98ed62|bf312ba0-d244-4640-8c33-b11f43e2eff2|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53|/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -507,6 +502,14 @@
     [
       "7fae4bac-f551-4cce-a788-5cca3e222838",
       "Relay4"
+    ],
+    [
+      "5b2e07a5-268c-43a3-801e-d9d22c192253",
+      "USB-Power"
+    ],
+    [
+      "b1308074-14f8-4429-80dc-761a195f4ef7",
+      "Boost Converter"
     ]
   ],
   "text_variables": {}

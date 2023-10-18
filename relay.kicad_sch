@@ -848,7 +848,7 @@
   (symbol (lib_id "Device:R") (at 212.09 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0716383b-d7d0-4341-a2c4-19430aa48a46)
-    (property "Reference" "R4" (at 214.63 90.17 0)
+    (property "Reference" "R9" (at 214.63 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 214.63 92.71 0)
@@ -865,16 +865,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "R7") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "R10") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "R13") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -883,7 +883,7 @@
   (symbol (lib_id "Device:LED") (at 143.51 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bb4f503-b651-4b79-9827-24c87587379a)
-    (property "Reference" "D2" (at 147.32 65.0875 90)
+    (property "Reference" "D1" (at 147.32 65.0875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 147.32 67.6275 90)
@@ -900,16 +900,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "D8") (unit 1)
+          (reference "D7") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "D11") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -918,7 +918,7 @@
   (symbol (lib_id "power:GND") (at 212.09 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55f33ec3-382b-4aea-ab83-0f7bb0b58859)
-    (property "Reference" "#PWR022" (at 212.09 104.14 0)
+    (property "Reference" "#PWR020" (at 212.09 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 102.87 0)
@@ -934,16 +934,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -952,7 +952,7 @@
   (symbol (lib_id "power:GND") (at 160.02 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e459214-7f6d-4f79-be0c-21a0695b4dea)
-    (property "Reference" "#PWR019" (at 160.02 93.98 0)
+    (property "Reference" "#PWR017" (at 160.02 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 92.71 0)
@@ -968,16 +968,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -986,7 +986,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 229.87 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62bd45cb-4f36-4ce3-89e0-21d14abc567d)
-    (property "Reference" "J3" (at 232.41 76.2 0)
+    (property "Reference" "J8" (at 232.41 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x02" (at 232.41 78.74 0)
@@ -1003,16 +1003,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "J3") (unit 1)
+          (reference "J8") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "J4") (unit 1)
+          (reference "J9") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "J5") (unit 1)
+          (reference "J10") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "J6") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1021,7 +1021,7 @@
   (symbol (lib_id "Device:R") (at 116.84 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c3992ef-7280-4649-8884-f8e4706f5c30)
-    (property "Reference" "R2" (at 116.84 41.91 90)
+    (property "Reference" "R7" (at 116.84 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1K" (at 116.84 44.45 90)
@@ -1038,16 +1038,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "R2") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "R5") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "R8") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "R11") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1056,7 +1056,7 @@
   (symbol (lib_id "Device:LED") (at 212.09 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f4d5450-838a-4d52-8aaa-1ced27173efd)
-    (property "Reference" "D4" (at 215.9 81.5975 90)
+    (property "Reference" "D3" (at 215.9 81.5975 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 215.9 84.1375 90)
@@ -1073,16 +1073,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "D7") (unit 1)
+          (reference "D6") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "D10") (unit 1)
+          (reference "D9") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "D13") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1091,7 +1091,7 @@
   (symbol (lib_id "Diode:1N4007") (at 157.48 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8305991e-3b34-4523-9e7a-b9b4525cd981)
-    (property "Reference" "D3" (at 160.02 63.5 90)
+    (property "Reference" "D2" (at 160.02 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4007" (at 160.02 66.04 90)
@@ -1114,16 +1114,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "D6") (unit 1)
+          (reference "D5") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "D9") (unit 1)
+          (reference "D8") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "D12") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1132,7 +1132,7 @@
   (symbol (lib_id "power:+12V") (at 184.15 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f96962e-5bea-4056-a44b-572df1c433f8)
-    (property "Reference" "#PWR020" (at 184.15 43.18 0)
+    (property "Reference" "#PWR018" (at 184.15 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 184.15 34.29 0)
@@ -1148,16 +1148,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1166,7 +1166,7 @@
   (symbol (lib_id "power:+12V") (at 198.12 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9531853c-88f3-43ed-ad21-cf3471dc5305)
-    (property "Reference" "#PWR021" (at 198.12 67.31 0)
+    (property "Reference" "#PWR019" (at 198.12 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 198.12 58.42 0)
@@ -1182,16 +1182,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1238,7 +1238,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 204.47 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2a057e8-7754-43ea-ba98-f20b18d211df)
-    (property "Reference" "SW1" (at 204.47 68.58 0)
+    (property "Reference" "SW3" (at 204.47 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 204.47 71.12 0)
@@ -1256,16 +1256,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "SW1") (unit 1)
-        )
-        (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "SW2") (unit 1)
-        )
-        (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
           (reference "SW3") (unit 1)
         )
-        (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
+        (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
           (reference "SW4") (unit 1)
+        )
+        (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
+          (reference "SW5") (unit 1)
+        )
+        (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -1319,7 +1319,7 @@
   (symbol (lib_id "power:+12V") (at 135.89 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc99ce57-4d7c-4e13-b9cc-02f5b65dc58a)
-    (property "Reference" "#PWR018" (at 135.89 43.18 0)
+    (property "Reference" "#PWR016" (at 135.89 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 135.89 34.29 0)
@@ -1335,16 +1335,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1353,7 +1353,7 @@
   (symbol (lib_id "Device:R") (at 143.51 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6562a90-c754-45cc-8a5c-a21efa75e740)
-    (property "Reference" "R3" (at 146.05 74.93 0)
+    (property "Reference" "R8" (at 146.05 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220R" (at 146.05 77.47 0)
@@ -1370,16 +1370,16 @@
     (instances
       (project "garden-watering"
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/b86e6512-3498-4f0d-b138-ff8483013fa9"
-          (reference "R3") (unit 1)
+          (reference "R8") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/a263f75f-607a-4fee-9575-4ca2c2fb029d"
-          (reference "R6") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/758baf69-94b1-4668-b4fe-92148a7ea866"
-          (reference "R9") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/5c9d11ea-1e89-4e30-9b32-70dbb21d4d53/7fae4bac-f551-4cce-a788-5cca3e222838"
-          (reference "R12") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
